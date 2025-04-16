@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  "mongodb://nishitm060:Pushkar12345@cluster0-shard-00-00.cz8kv.mongodb.net:27017,cluster0-shard-00-01.cz8kv.mongodb.net:27017,cluster0-shard-00-02.cz8kv.mongodb.net:27017/?replicaSet=atlas-ly70cl-shard-0&ssl=true&authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
+  "Your_MongoDB_URL"
 );
 
 const userSchema = new mongoose.Schema({
