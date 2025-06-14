@@ -1,4 +1,4 @@
-# Paytm Clone Backend
+# WalletCore Backend
 
 A secure and scalable backend API for a digital wallet application built with Node.js, Express, and MongoDB. This project implements user authentication, account management, and money transfer functionality similar to Paytm.
 
@@ -25,7 +25,7 @@ A secure and scalable backend API for a digital wallet application built with No
 ## 📁 Project Structure
 
 ```
-paytm-backend/
+WalletCore-backend/
 ├── routes/
 │   ├── app.js           # Main router
 │   ├── users.js         # User-related routes
@@ -49,7 +49,7 @@ paytm-backend/
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd paytm-backend
+   cd WalletCore-backend
    ```
 
 2. **Install dependencies**
